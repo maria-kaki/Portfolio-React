@@ -9,9 +9,8 @@ export default function Header() {
                 <nav>
                     <ul className="flex gap-6">
                         <li><NavLink to="/">Home</NavLink></li>
-                        <li><NavLink to="/personal-presentation">Sobre Mim</NavLink></li>
-                        <li><NavLink to="/projects">Projetos</NavLink></li>
-                        <li><NavLink to="/contact">Contato</NavLink></li>
+                        <li><NavLink to="/projects">Projects</NavLink></li>
+                        <li><NavLink to="/contact">Contact</NavLink></li>
                     </ul>
                 </nav>
             </header>

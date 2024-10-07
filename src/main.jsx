@@ -7,7 +7,6 @@ import Home from './pages/Home.jsx'
 import FormsContact from './pages/FormsContact.jsx'
 import PageNotFound from './pages/PageNotFound.jsx'
 import Projects from './pages/Projects.jsx'
-import PersonalPresentation from './pages/PersonalPresentation.jsx'
 
 const router = createBrowserRouter([
   {
@@ -17,7 +16,6 @@ const router = createBrowserRouter([
       { index: true, element: <Home/> },
       { path: '/projects', element: <Projects/> },
       { path: '/contact', element: <FormsContact/> },
-      { path: '/personal-presentation', element: <PersonalPresentation/> },
       { path: '*', element: <PageNotFound/> }
     ]
   }
